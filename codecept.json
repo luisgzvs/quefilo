@@ -1,0 +1,22 @@
+{
+  "tests": "./test/Login_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://quefilo.com/",
+      "browser": "chrome",
+      "windowSize": "maximize",
+      "restart": true,
+      "smartWait": 15000
+    }
+  },
+  "include": {
+    "I": "./steps_file.js",
+    "basePage": "./base/BasePage.js",
+    "navSectionPage": "./pages/NavSectionPage.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "quefilo"
+}

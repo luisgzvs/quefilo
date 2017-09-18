@@ -1,0 +1,8 @@
+{
+    "plugins": [
+        "codeceptjs"
+    ],
+    "env": {
+        "codeceptjs/codeceptjs": true
+    }
+}

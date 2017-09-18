@@ -1,0 +1,31 @@
+{
+  "name": "quefilo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "steps_file.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "codeceptjs-webdriverio": "^1.1.0"
+  },
+  "devDependencies": {
+    "codeceptjs-webdriverio": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisgzvs/quefilo.git"
+  },
+  "keywords": [
+    "quefilo"
+  ],
+  "author": "Luis Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisgzvs/quefilo/issues"
+  },
+  "homepage": "https://github.com/luisgzvs/quefilo#readme"
+}
