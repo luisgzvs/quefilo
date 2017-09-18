@@ -1,5 +1,5 @@
 {
-  "tests": "./test/Login_test.js",
+  "tests": "./test/*.js",
   "timeout": 10000,
   "output": "./output",
   "helpers": {
@@ -7,14 +7,16 @@
       "url": "http://quefilo.com/",
       "browser": "chrome",
       "windowSize": "maximize",
-      "restart": true,
+      "restart": false,
       "smartWait": 15000
     }
   },
   "include": {
     "I": "./steps_file.js",
     "basePage": "./base/BasePage.js",
-    "navSectionPage": "./pages/NavSectionPage.js"
+    "navSectionPage": "./pages/NavSectionPage.js",
+    "loginPage": "./pages/LoginPage.js",
+    "registerPage": "./pages/RegisterPage.js"
   },
   "bootstrap": false,
   "mocha": {},

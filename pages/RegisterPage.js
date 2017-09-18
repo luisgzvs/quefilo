@@ -11,15 +11,15 @@ module.exports = {
 
   // insert your locators and methods here
   elements: {
-    loginLink: "//li[@class='loginUser']",
+    pageTitle: '.box_name'
   },
 
-  waitForButtonVisibility() {
-    basePage.waitForElementVisibility(this.elements.loginLink)
+  waitFortitleVisibility() {
+    basePage.waitForElementVisibility(this.elements.pageTitle)
   },
 
-  gotoLogin() {
-    I.click(this.elements.loginLink)
+  register(){
+      console.log('good')
   }
 
 }
